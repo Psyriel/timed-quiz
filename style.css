@@ -1,0 +1,44 @@
+div button {
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+}
+
+
+/* Button Settings */
+
+#quiz-container button {
+    background-color: indigo;
+}
+
+#highscore-button {
+    background-color: slateblue;
+}
+
+#reset-button {
+    background-color: slateblue;
+    color: white;
+}
+
+#start-button {
+    background-color: indigo;
+}
+
+#submit-initials {
+    background-color: indigo;
+}
+
+.navbar-container {
+    max-width: none;
+}
+
+
+/* Hover effects */
+
+#reset-button:hover,
+#highscore-button:hover,
+#submit-initials:hover,
+#quiz-container button:hover,
+#start-button:hover {
+    background-color: orchid;
+}
