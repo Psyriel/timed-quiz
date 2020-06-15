@@ -161,6 +161,11 @@ function initQuiz() {
         submitButtonEl.addEventListener("click", saveHighScore);
 
         generateQuestion(currentQuestion);
+
+        function resetScore() {
+            console.clear(highScores);
+        }
+        resetButtonEl.addEventListener("click", resetScore);
     }
     startButtonEl.addEventListener("click", startQuiz);
 
